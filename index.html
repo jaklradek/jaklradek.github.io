@@ -18,91 +18,20 @@
 			</header>
 			<div id="grid-gallery" class="grid-gallery">
 				<section class="grid-wrap">
-					<ul class="grid">
+					<ul class="grid" id="thumbs">
 
 					<li class="grid-sizer"></li>
 
 
-						<!-- SWAMP SPAWN -->
-						<li>
-							<figure>
-								<img src="img/thumb/1.png" alt="img01"/>
-								<figcaption><h3>Swamp Spawn</h3><p>Late night drawing. Planned to do fast sketch but ended up drawing for 5 hours.</p></figcaption>
-							</figure>
-						</li>
+<!-- SCRIPT DATA FOR THUMBNAIL GALLERY -->
 
-						<!-- MONKEY NINJA -->
-						<li>
-							<figure>
-								<img src="img/thumb/2.png" alt="img02"/>
-								<figcaption><h3>Monkey Ninja</h3><p>Practiced lineart work on this one. Was not intended to be a monkey at first, but the ears out of the mask were irresistible.</p></figcaption>
-							</figure>
-						</li>
-
-						<!-- SWAMP SPAWN -->
-						<li>
-							<figure>
-								<img src="img/thumb/3.png" alt="img03"/>
-								<figcaption><h3>Waterpipe Monster</h3><p>Initial idea here was to have waterpipe/mexican monster with sombrero, but the hat didn't fit the theme I wanted.</p></figcaption>
-							</figure>
-						</li>
-
-						<!-- MONKEY NINJA -->
-						<li>
-							<figure>
-								<img src="img/thumb/4.png" alt="img04"/>
-								<figcaption><h3>Peaclock</h3><p>Ok you got the pun here. Clock and peacock together, in a steampunk way. You can check time-lapse of the drawing on <a href="https://www.youtube.com/watch?v=UbPT5RS046E">youtube</a>.</p></figcaption>
-							</figure>
-						</li>
 
 					</ul>
 				</section>
 				<section class="slideshow">
-					<ul>
+					<ul id="larges">
 
-						<!-- SWAMP SPAWN -->
-						<li>
-							<figure>
-								<figcaption>
-									<h3>Swamp Spawn</h3>
-									<p>Late night drawing. Planned to do fast sketch but ended up drawing for 5 hours.</p>
-								</figcaption>
-								<img src="img/large/1.png" alt="img01"/>
-							</figure>
-						</li>
-
-						<!-- MONKEY NINJA -->
-						<li>
-							<figure>
-								<figcaption>
-									<h3>Monkey Ninja</h3>
-									<p>Practiced lineart work on this one. Was not intended to be a monkey at first, but the ears out of the mask were irresistible.</p>
-								</figcaption>
-								<img src="img/large/2.png" alt="img02"/>
-							</figure>
-						</li>
-
-					<!-- WATERPIPE MONSTER -->
-					<li>
-						<figure>
-							<figcaption>
-								<h3>Waterpipe Monster</h3>
-								<p>Initial idea here was to have waterpipe/mexican monster with sombrero, but the hat didn't fit the theme I wanted.</p>
-							</figcaption>
-							<img src="img/large/3.png" alt="img03"/>
-						</figure>
-					</li>
-
-					<!-- PEACLOCK -->
-					<li>
-						<figure>
-							<figcaption>
-								<h3>Peaclock</h3>
-								<p>Ok you got the pun here. Clock and peacock together, in a steampunk way. You can check time-lapse of the drawing on <a href="https://www.youtube.com/watch?v=UbPT5RS046E">youtube</a>.</p>
-							</figcaption>
-							<img src="img/large/4.png" alt="img04"/>
-						</figure>
-					</li>
+<!-- SCRIPT DATA FOR LARGE GALLERY -->
 
 
 				</ul>
@@ -114,6 +43,8 @@
 				</section><!-- // slideshow -->
 			</div><!-- // grid-gallery -->
 		</div>
+
+		<script src="js/imageload.js"></script>
 		<script src="js/imagesloaded.pkgd.min.js"></script>
 		<script src="js/masonry.pkgd.min.js"></script>
 		<script src="js/classie.js"></script>
@@ -121,5 +52,6 @@
 		<script>
 			new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
 		</script>
+
 	</body>
 </html>

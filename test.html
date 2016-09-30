@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <title>Radek Jakl - Illustration</title>
+	</head>
+	<body>
+
+		<script>
+
+		document.body.onload = init();
+
+//Loading json from file
+			function serverRequest(name){
+				var request = new XMLHttpRequest();
+		    request.open("GET", name, false);
+		    request.send(null);
+				return request;
+}
+
+
+//create elements
+		function addDescription(postItem) {
+			var div = document.createElement("div");
+			var img = document.createElement("img");
+			var h3 = document.createElement("p");
+			var p = document.createElement("h3");
+
+			img.setAttribute("src", "img/thumb/1.png");
+
+			var ptitle = document.createTextNode(postItem.title);
+			var pinfo = document.createTextNode(postItem.info);
+			h3.appendChild(ptitle);
+			p.appendChild(pinfo);
+			document.body.appendChild(div);
+			div.appendChild(img);
+			div.appendChild(p);
+			div.appendChild(h3);
+}
+
+//init
+			function init(){
+
+				var request = serverRequest("text.json");
+				var jsondata = JSON.parse(request.responseText);
+
+				for (var prop in jsondata){
+					if (jsondata.hasOwnProperty(prop)) addDescription(jsondata[prop]);
+				}
+
+			}
+		</script>
+
+	</body>
+</html>
