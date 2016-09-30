@@ -21,7 +21,7 @@ function addThumb(postItem, imgName) {
   var p = document.createElement("p");
   var a = document.createElement("a");
 
-  img.setAttribute("src", "img/" + imgName + ".png");
+  img.setAttribute("src", "http://res.cloudinary.com/www-jaklradek-com/image/upload/v1475252055/" + imgName + ".png");
 
 
   var ptitle = document.createTextNode(postItem.title);
