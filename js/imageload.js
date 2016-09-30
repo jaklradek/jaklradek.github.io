@@ -9,9 +9,10 @@ document.body.onload = init();
 }
 
 
+
+
 //create elements
 function addThumb(postItem, imgName) {
-
   var li = document.createElement("li");
   var figure = document.createElement("figure");
   var img = document.createElement("img");
@@ -20,7 +21,7 @@ function addThumb(postItem, imgName) {
   var p = document.createElement("p");
   var a = document.createElement("a");
 
-  img.setAttribute("src", "img/thumb/" + imgName + ".png");
+  img.setAttribute("src", "img/" + imgName + ".png");
 
 
   var ptitle = document.createTextNode(postItem.title);
@@ -45,15 +46,14 @@ function addThumb(postItem, imgName) {
 }
 
 function addLarges(postItem, imgName) {
+  var li = document.createElement("li");
+  var figure = document.createElement("figure");
+  var img = document.createElement("img");
+  var figcaption = document.createElement("figcaption");
+  var h3 = document.createElement("h3");
+  var p = document.createElement("p");
 
-var li = document.createElement("li");
-var figure = document.createElement("figure");
-var img = document.createElement("img");
-var figcaption = document.createElement("figcaption");
-var h3 = document.createElement("h3");
-var p = document.createElement("p");
-
-img.setAttribute("src", "img/large/" + imgName + ".png");
+img.setAttribute("src", "img/" + imgName + ".png");
 
 var ptitle = document.createTextNode(postItem.title);
 var pinfo = document.createTextNode(postItem.info);
