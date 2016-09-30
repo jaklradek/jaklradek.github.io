@@ -16,10 +16,12 @@ function addThumb(postItem, imgName) {
   var figure = document.createElement("figure");
   var img = document.createElement("img");
   var figcaption = document.createElement("figcaption");
-  var h3 = document.createElement("p");
-  var p = document.createElement("h3");
+  var h3 = document.createElement("h3");
+  var p = document.createElement("p");
+  var a = document.createElement("a");
 
   img.setAttribute("src", "img/thumb/" + imgName + ".png");
+
 
   var ptitle = document.createTextNode(postItem.title);
   var pinfo = document.createTextNode(postItem.info);
@@ -30,8 +32,16 @@ function addThumb(postItem, imgName) {
   li.appendChild(figure);
   figure.appendChild(img);
   figure.appendChild(figcaption);
-  figcaption.appendChild(p);
   figcaption.appendChild(h3);
+  figcaption.appendChild(p);
+
+
+  if (postItem.link != null){
+  a.setAttribute("href",postItem.link);
+  a.appendChild(document.createTextNode("youtube"));
+  p.appendChild(a);
+  p.appendChild(document.createTextNode("."));
+  }
 }
 
 function addLarges(postItem, imgName) {
@@ -40,11 +50,10 @@ var li = document.createElement("li");
 var figure = document.createElement("figure");
 var img = document.createElement("img");
 var figcaption = document.createElement("figcaption");
-var h3 = document.createElement("p");
-var p = document.createElement("h3");
+var h3 = document.createElement("h3");
+var p = document.createElement("p");
 
 img.setAttribute("src", "img/large/" + imgName + ".png");
-console.log(img.getAttribute("src", "img/large/" + imgName + ".png"));
 
 var ptitle = document.createTextNode(postItem.title);
 var pinfo = document.createTextNode(postItem.info);
@@ -55,8 +64,8 @@ document.getElementById("larges").appendChild(li);
 li.appendChild(figure);
 figure.appendChild(figcaption);
 figure.appendChild(img);
-figcaption.appendChild(p);
 figcaption.appendChild(h3);
+figcaption.appendChild(p);
 }
 
 //init
@@ -68,13 +77,11 @@ figcaption.appendChild(h3);
     //THUMBNAILS
     for (var prop in jsondata){
       if (jsondata.hasOwnProperty(prop)) addThumb(jsondata[prop], prop);
-      console.log(prop);
     }
 
     //LARGES
     for (var prop in jsondata){
       if (jsondata.hasOwnProperty(prop)) addLarges(jsondata[prop], prop);
-      console.log(prop);
     }
 
   }
