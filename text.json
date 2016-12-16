@@ -1,58 +1,141 @@
 {
+  "rumrider": {
+    "title": "Rum Rider",
+    "info": "Classic mountain rescue concept put upside down.",
+    "imgThumb": "http://res.cloudinary.com/www-jaklradek-com/image/upload/c_scale,h_560,w_560/v1481882265/50-bernardrum.png",
+    "imgLarge": "http://res.cloudinary.com/www-jaklradek-com/image/upload/c_scale,h_560,w_560/v1481882265/50-bernardrum.png"
+  },
+
+  "wolf": {
+    "title": "Wolf Shaman",
+    "info": "Fantasy character, hunting for his clan with spells and magic.",
+    "imgThumb": "http://res.cloudinary.com/www-jaklradek-com/image/upload/c_scale,w_560/v1481882265/48-foxmagician.png",
+    "imgLarge": "http://res.cloudinary.com/www-jaklradek-com/image/upload/c_scale,w_260/v1481882265/48-foxmagician.png"
+  },
+
+  "femalepose": {
+    "title": "Female pose",
+    "info": "Anatomy practice went rogue.",
+    "imgThumb": "http://res.cloudinary.com/www-jaklradek-com/image/upload/c_scale,h_560,w_560/v1481882265/51-model.png",
+    "imgLarge": "http://res.cloudinary.com/www-jaklradek-com/image/upload/c_scale,h_260,w_260/v1481882265/51-model.png"
+  },
+
+  "flowerrhino": {
+    "title": "Romantic Rhino",
+    "info": "Even the strongest creatures can have weak moments.",
+    "imgThumb": "http://res.cloudinary.com/www-jaklradek-com/image/upload/c_scale,h_560,w_560/v1481882265/47-flowerrhino.png",
+    "imgLarge": "http://res.cloudinary.com/www-jaklradek-com/image/upload/c_scale,h_260,w_260/v1481882265/47-flowerrhino.png"
+  },
+
+  "spiderbulb": {
+    "title": "Spiderbulb",
+    "info": "How the spider should be better in attracting flies? Being a lightbulb!",
+    "imgThumb": "http://res.cloudinary.com/www-jaklradek-com/image/upload/c_scale,h_260/v1476106445/spiderbulb.png",
+    "imgLarge": "http://res.cloudinary.com/www-jaklradek-com/image/upload/v1476106445/spiderbulb.png"
+  },
+
   "img1": {
     "title": "Swamp Spawn",
-    "info": "Late night drawing. Planned to do fast sketch but ended up drawing for 5 hours."
+    "info": "Late night drawing. Planned to do fast sketch but ended up drawing for 5 hours.",
+    "imgThumb": "http://res.cloudinary.com/www-jaklradek-com/image/upload/c_scale,h_260/v1475252056/img1.png",
+    "imgLarge": "http://res.cloudinary.com/www-jaklradek-com/image/upload/v1475252056/img1.png"
   },
 
   "img2": {
     "title": "Monkey Ninja",
-    "info": "Practiced lineart work and folds on this one. Was not intended to be a monkey at first, but the ears out of the mask were irresistible."
+    "info": "Practiced lineart work and folds on this one. Was not intended to be a monkey at first, but the ears out of the mask were irresistible.",
+    "imgThumb": "http://res.cloudinary.com/www-jaklradek-com/image/upload/c_scale,h_260/v1475252056/img2.png",
+    "imgLarge": "http://res.cloudinary.com/www-jaklradek-com/image/upload/v1475252056/img2.png"
   },
 
   "img3": {
     "title": "Waterpipe Monster",
-    "info": "Initial idea here was to have waterpipe/mexican monster with sombrero, but the hat didn't fit the theme I wanted."
+    "info": "Initial idea here was to have waterpipe/mexican monster with sombrero, but the hat didn't fit the theme I wanted.",
+    "imgThumb": "http://res.cloudinary.com/www-jaklradek-com/image/upload/c_scale,h_260/v1475252056/img3.png",
+    "imgLarge": "http://res.cloudinary.com/www-jaklradek-com/image/upload/v1475252056/img3.png"
   },
 
   "img4": {
     "title": "Peaclock",
     "info": "Ok you got the pun here. Clock and peacock together, in a steampunk way. You can check time-lapse of the drawing on ",
-    "link": "https://www.youtube.com/watch?v=UbPT5RS046E"
+    "link": "https://www.youtube.com/watch?v=UbPT5RS046E",
+    "imgThumb": "http://res.cloudinary.com/www-jaklradek-com/image/upload/c_scale,h_260/v1475252056/img4.png",
+    "imgLarge": "http://res.cloudinary.com/www-jaklradek-com/image/upload/v1475252056/img4.png"
   },
 
   "img5": {
     "title": "Time-warping golem",
-    "info": "Sometimes we just want to be somewhere else and this guy can come to help."
+    "info": "Sometimes we just want to be somewhere else and this guy can come to help.",
+    "imgThumb": "http://res.cloudinary.com/www-jaklradek-com/image/upload/c_scale,h_260/v1475252056/img5.png",
+    "imgLarge": "http://res.cloudinary.com/www-jaklradek-com/image/upload/v1475252056/img5.png"
   },
 
   "img6": {
     "title": "Jetpack Robot",
-    "info": "Guardian of the skies in metropolitian environments."
+    "info": "Guardian of the skies in metropolitian environments.",
+    "imgThumb": "http://res.cloudinary.com/www-jaklradek-com/image/upload/c_scale,h_260/v1475252056/img6.png",
+    "imgLarge": "http://res.cloudinary.com/www-jaklradek-com/image/upload/v1475252056/img6.png"
   },
 
   "img7": {
     "title": "Zebra-Tiger-Panda",
-    "info": "Kind of disney style blend of black and white striped animals. The beetle reminded me of an old Lion King videogame."
+    "info": "Kind of disney style blend of black and white striped animals. The beetle reminded me of an old Lion King videogame.",
+    "imgThumb": "http://res.cloudinary.com/www-jaklradek-com/image/upload/c_scale,h_260/v1475252056/img7.png",
+    "imgLarge": "http://res.cloudinary.com/www-jaklradek-com/image/upload/v1475252056/img7.png"
   },
 
   "img8": {
     "title": "Crazy Bat",
-    "info": "Sometimes even the darkest things comes out rather cute."
+    "info": "Sometimes even the darkest things comes out rather cute.",
+    "imgThumb": "http://res.cloudinary.com/www-jaklradek-com/image/upload/c_scale,h_260/v1475252056/img8.png",
+    "imgLarge": "http://res.cloudinary.com/www-jaklradek-com/image/upload/v1475252056/img8.png"
   },
 
     "img9": {
       "title": "Platypus-Lemur",
-      "info": "He is called Lumir. The idea came from super-fast brainstorming session with my roommates."
+      "info": "He is called Lumir. The idea came from super-fast brainstorming session with my roommates.",
+      "imgThumb": "http://res.cloudinary.com/www-jaklradek-com/image/upload/c_scale,h_260/v1475252056/img9.png",
+      "imgLarge": "http://res.cloudinary.com/www-jaklradek-com/image/upload/v1475252056/img9.png"
     },
 
       "img10": {
         "title": "Young Gecko-Parrot",
-        "info": "My roommate came up with this one. Even though it's still not as cute as she is, I like the character - gonna make evolved one soon."
+        "info": "My roommate came up with this one. Even though it's still not as cute as she is, I like the character - gonna make evolved one soon.",
+        "imgThumb": "http://res.cloudinary.com/www-jaklradek-com/image/upload/c_scale,h_260/v1475252056/img10.png",
+        "imgLarge": "http://res.cloudinary.com/www-jaklradek-com/image/upload/v1475252056/img10.png"
       },
 
         "img11": {
           "title": "Alien Invader",
-          "info": "Very fast drawing. In the middle of the work, Earthworm Jim popped up in my head and I couldn't get rid off it."
+          "info": "Very fast drawing. In the middle of the work, Earthworm Jim popped up in my head and I couldn't get rid off it.",
+          "imgThumb": "http://res.cloudinary.com/www-jaklradek-com/image/upload/c_scale,h_260/v1475252056/img11.png",
+          "imgLarge": "http://res.cloudinary.com/www-jaklradek-com/image/upload/v1475252056/img11.png"
+        },
+
+        "ill1": {
+          "title": "Goofy Witch",
+          "info": "Drew this one for my ex-stepniece or whatever it's called.",
+          "imgThumb": "http://res.cloudinary.com/www-jaklradek-com/image/upload/c_scale,h_260/v1476108723/ill1.jpg",
+          "imgLarge": "http://res.cloudinary.com/www-jaklradek-com/image/upload/v1476108723/ill1.jpg"
+        },
+        "ill2": {
+          "title": "We cheer everywhere!",
+          "info": "Design for a t-shirt to use during the ice hockey championship. Can send a photo on an actual person if needed.",
+          "imgThumb": "http://res.cloudinary.com/www-jaklradek-com/image/upload/c_scale,h_260/v1476108723/ill2.jpg",
+          "imgLarge": "http://res.cloudinary.com/www-jaklradek-com/image/upload/v1476108723/ill2.jpg"
+        },
+        "ill5": {
+          "title": "Heart, torn out.",
+          "info": "Dark moment that I had to put on a paper. Was done in like 5 minutes, just a brainwash, but I still feel the emotions from it.",
+          "imgThumb": "http://res.cloudinary.com/www-jaklradek-com/image/upload/c_scale,h_260/v1476108723/ill5.jpg",
+          "imgLarge": "http://res.cloudinary.com/www-jaklradek-com/image/upload/v1476108723/ill5.jpg"
+        },
+
+        "ill6": {
+          "title": "Blackhole PF 2015",
+          "info": "I am also a graphic designer for an indie development team Fiolasoft and I did this during the Chrismas for promotion of our game Blackhole",
+          "imgThumb": "http://res.cloudinary.com/www-jaklradek-com/image/upload/c_scale,h_260/v1476108723/ill6.jpg",
+          "imgLarge": "http://res.cloudinary.com/www-jaklradek-com/image/upload/v1476108723/ill6.jpg"
         }
 
 }

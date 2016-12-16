@@ -12,7 +12,7 @@ document.body.onload = init();
 
 
 //create elements
-function addThumb(postItem, imgName) {
+function addThumb(postItem) {
   var li = document.createElement("li");
   var figure = document.createElement("figure");
   var img = document.createElement("img");
@@ -21,7 +21,7 @@ function addThumb(postItem, imgName) {
   var p = document.createElement("p");
   var a = document.createElement("a");
 
-  img.setAttribute("src", "http://res.cloudinary.com/www-jaklradek-com/image/upload/c_scale,h_260/v1475252055/" + imgName + ".png");
+  img.setAttribute("src", postItem.imgThumb);
 
   var ptitle = document.createTextNode(postItem.title);
   var pinfo = document.createTextNode(postItem.info);
@@ -52,7 +52,7 @@ function addLarges(postItem, imgName) {
   var h3 = document.createElement("h3");
   var p = document.createElement("p");
 
-img.setAttribute("src", "img/" + imgName + ".png");
+img.setAttribute("src",postItem.imgLarge);
 
 var ptitle = document.createTextNode(postItem.title);
 var pinfo = document.createTextNode(postItem.info);
@@ -75,12 +75,12 @@ figcaption.appendChild(p);
 
     //THUMBNAILS
     for (var prop in jsondata){
-      if (jsondata.hasOwnProperty(prop)) addThumb(jsondata[prop], prop);
+      if (jsondata.hasOwnProperty(prop)) addThumb(jsondata[prop]);
     }
 
     //LARGES
     for (var prop in jsondata){
-      if (jsondata.hasOwnProperty(prop)) addLarges(jsondata[prop], prop);
+      if (jsondata.hasOwnProperty(prop)) addLarges(jsondata[prop]);
     }
 
   }
