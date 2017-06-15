@@ -8,6 +8,110 @@
 	font-weight: normal;
 	font-style: normal;
 }
+
+.nav-wrapper {
+
+	width: 100%;
+	height: 122px;
+
+}
+
+ #slideshow {
+  position: relative;
+  width: 100%;
+  height: 320px;
+}
+
+#slideshow > div {
+  position: absolute;
+}
+
+.slideshow-img1 {
+	width: 100%;
+	height: 320px;
+	background-image: url("http://res.cloudinary.com/www-jaklradek-com/image/upload/v1476106445/spiderbulb.png");
+	background-position: center;
+	background-size: cover;
+}
+
+.slideshow-img2 {
+	width: 100%;
+	height: 320px;
+	background-image: url("http://res.cloudinary.com/www-jaklradek-com/image/upload/v1476108723/ill6.jpg");
+	background-position: 0% 80%;
+	background-size: cover;
+}
+
+.slideshow-img3 {
+	width: 100%;
+	height: 320px;
+	background-image: url("http://res.cloudinary.com/www-jaklradek-com/image/upload/v1492788971/dragon1366.png");
+	background-position: center;
+	background-size: cover;
+}
+
+.slideshow-logo1 {
+	width: 100%;
+	height: 320px;
+	background-image: url("http://res.cloudinary.com/www-jaklradek-com/image/upload/v1492792855/tigers-spotlight.png");
+}
+
+.slideshow-logo2 {
+	width: 100%;
+	height: 320px;
+	background-image: url("http://res.cloudinary.com/www-jaklradek-com/image/upload/v1492793071/cocon-spotlight.png");
+}
+
+.slideshow-logo3 {
+	width: 100%;
+	height: 320px;
+	background-image: url("http://res.cloudinary.com/www-jaklradek-com/image/upload/v1492792865/wisephora-spotlight.png");
+}
+
+
+.nav {
+	margin: 0 auto;
+	height: 70px;
+	line-height: 50px;
+	background-color: #ffffff;
+	padding-top: 20px;
+	padding-bottom: 32px;
+	width: 100%;
+	text-align: center;
+}
+
+.nav ul {
+	list-style-type: none;
+	display: inline-block;
+	margin: 0;
+}
+
+.nav ul li {
+	float: left;
+	padding-left: 0px;
+	padding-right: 32px;
+}
+
+.nav ul li a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.nav ul li a:hover {
+	text-decoration: underline;
+	color: #000000;
+}
+
+.fixed {
+position: fixed;
+top: 0px;
+z-index: 1;
+width: 100%;
+-webkit-box-shadow: 0px 2px 18px -7px rgba(0,0,0,0.56);
+-moz-box-shadow: 0px 2px 18px -7px rgba(0,0,0,0.56);
+box-shadow: 0px 2px 18px -7px rgba(0,0,0,0.56);
+}
+
 /* General style */
 .grid-gallery ul {
 	list-style: none;
@@ -335,7 +439,6 @@ a:hover {
 	padding: 2.875em 1.875em 1.875em;
 	text-align: center;
 	padding: 2em;
-	border-bottom: 1px solid black;
 	}
 
   .container > footer {

@@ -1,0 +1,36 @@
+{
+    "tigers": {
+      "imgThumb": "http://res.cloudinary.com/www-jaklradek-com/image/upload/v1492791670/logo-tigers.png",
+      "imgLarge": "http://res.cloudinary.com/www-jaklradek-com/image/upload/v1492791670/logo-tigers.png"
+    },
+
+  "3queens": {
+    "imgThumb": "http://res.cloudinary.com/www-jaklradek-com/image/upload/c_scale,h_560,w_560/v1492791424/3queens.png",
+    "imgLarge": "http://res.cloudinary.com/www-jaklradek-com/image/upload/v1492791424/3queens.png"
+  },
+
+  "purposefly": {
+    "imgThumb": "http://res.cloudinary.com/www-jaklradek-com/image/upload/c_scale,h_560,w_560/v1492791421/purposefly.png",
+    "imgLarge": "http://res.cloudinary.com/www-jaklradek-com/image/upload/v1492791421/purposefly.png"
+  },
+
+  "wisephora": {
+    "imgThumb": "http://res.cloudinary.com/www-jaklradek-com/image/upload/c_scale,h_560,w_560/v1492791353/wisephora.png",
+    "imgLarge": "http://res.cloudinary.com/www-jaklradek-com/image/upload/v1492791353/wisephora.png"
+  },
+
+  "terapi": {
+    "imgThumb": "http://res.cloudinary.com/www-jaklradek-com/image/upload/c_scale,h_560,w_560/v1492791350/terapi.png",
+    "imgLarge": "http://res.cloudinary.com/www-jaklradek-com/image/upload/v1492791350/terapi.png"
+  },
+
+  "monkbox": {
+    "imgThumb": "http://res.cloudinary.com/www-jaklradek-com/image/upload/c_scale,h_560,w_560/v1492791348/monkbox.png",
+    "imgLarge": "http://res.cloudinary.com/www-jaklradek-com/image/upload/v1492791348/monkbox.png"
+  },
+
+  "cocon": {
+    "imgThumb": "http://res.cloudinary.com/www-jaklradek-com/image/upload/c_scale,h_560,w_560/v1492791346/cocon.png",
+    "imgLarge": "http://res.cloudinary.com/www-jaklradek-com/image/upload/v1492791346/cocon.png"
+  }
+}
