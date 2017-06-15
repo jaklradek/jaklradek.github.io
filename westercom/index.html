@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+
+  </head>
+
+  <body>
+
+    <div section="header" class="container-fluid c-header">
+      <div class="container c-header-content">
+        <div class="text-center">
+            <img src="img/header-logo.svg" class="header-logo" alt="Westercom logo">
+            <h1>Kolejová vozidla, energetika a kamerové systémy</h1>
+            <p></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container c-content">
+      <div class="about">
+        <p>Společnost Westercom se zabývá třemi oblastmi.Energetická divize řeší projektovou a inženýrskou činnost v oblasti elektrických distribučních sítí a rozvoden.</p>
+        <p>Vlakoví odborníci navrhují a implementují komunikační technologie do kolejových vozidel s ohledem na nejpřísnější bezpečnostní předpisy a plynulost drážního provozu.</p>
+        <p>Dostupnost a technologická kvalita kamer se díky technickému rozvoji posledních let značně vyspěla. Sledování a záznam obrazu dnes přispívají k bezpečnosti a poslouží i při objasňování a výpočtu různých skutečností. Kamerové systémy zvyšují kvalitu života, chrání majetek a to jak soukromým osobám, tak průmyslovým provozům.</p>
+      </div>
+
+      <div class="container c-divider">
+        <div class="row">
+          <div class="divider-text">
+            Služby
+          </div>
+          <div class="col divider-line">
+
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 col-md-4 division">
+          <img src="img/energetika.jpg" class="division-img img-fluid" alt="Energetika">
+          <h2>Energetika</h2>
+          <p>
+            Zabýváme se projektováním elektrických zařízení, projektovou a inženýrskou činností v oblasti elektrických distribučních sítí a rozvoden.
+          </p>
+        </div>
+        <div class="col-sm-12 col-md-4 division">
+          <img src="img/kolejovavozidla.jpg" class="division-img img-fluid" alt="Energetika">
+          <h2>Kolejová vozidla</h2>
+          <p>
+            Návrh a implementace komunikačních prvků pro zajištění bezpečnosti provozu, automatického vedení vlaku, informací a zábavy pro cestující.
+          </p>
+        </div>
+          <div class="col-sm-12 col-md-4 division">
+            <img src="img/kamerovesystemy.jpg" class="division-img img-fluid" alt="Energetika">
+            <h2>Kamerové systémy</h2>
+            <p>
+              Navrhneme Vám komplexní a zároveň jednoduchý kamerový system pro domácnost nebo sofistikované řešení pro komerční nebo průmyslové objekty.
+            </p>
+          </div>
+        </div>
+
+        <div class="container c-divider">
+          <div class="row">
+            <div class="divider-text">
+              Kontakt
+            </div>
+            <div class="col divider-line">
+
+            </div>
+          </div>
+        </div>
+
+        <div class="container c-contact">
+
+          <div id="map">
+          </div>
+
+          <div class="row">
+            <div class="col-md-6 col-sm-12 item-footer">
+              <img src="img/logo-footer.png" width="200px" class="img-fluid" alt="Westeros logo">
+            </div>
+            <div class="col-md-2 col-sm-6 item-footer">
+              <b>Westercom s.r.o.</b><br />
+              IČO: 03591689<br />
+              DIČ: CZ03591689<br />
+            </div>
+            <div class="col-md-2 col-sm-6 item-footer">
+              Bělohorská 245/71<br />
+              CZ-169 00 Praha<br />
+              info@westercom.eu
+            </div>
+            <div class="col-md-2 col-sm-12 item-footer">
+              <a href="#"><i>Všeobecné obchodní podmínky (.PDF)</i></a>
+            </div>
+          </div>
+        </div>
+
+    </div>
+
+
+    <!-- GOOGLE MAPS -->
+    <script>
+      function initMap() {
+
+        var uluru = {lat: 50.0837604, lng: 14.3681433};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: uluru
+        });
+        var styles = [ { "featureType": "water", "elementType": "geometry.fill", "stylers": [ { "color": "#d3d3d3" } ] }, { "featureType": "transit", "stylers": [ { "color": "#808080" }, { "visibility": "off" } ] }, { "featureType": "road.highway", "elementType": "geometry.stroke", "stylers": [ { "visibility": "on" }, { "color": "#b3b3b3" } ] }, { "featureType": "road.highway", "elementType": "geometry.fill", "stylers": [ { "color": "#ffffff" } ] }, { "featureType": "road.local", "elementType": "geometry.fill", "stylers": [ { "visibility": "on" }, { "color": "#ffffff" }, { "weight": 1.8 } ] }, { "featureType": "road.local", "elementType": "geometry.stroke", "stylers": [ { "color": "#d7d7d7" } ] }, { "featureType": "poi", "elementType": "geometry.fill", "stylers": [ { "visibility": "on" }, { "color": "#ebebeb" } ] }, { "featureType": "administrative", "elementType": "geometry", "stylers": [ { "color": "#a7a7a7" } ] }, { "featureType": "road.arterial", "elementType": "geometry.fill", "stylers": [ { "color": "#ffffff" } ] }, { "featureType": "road.arterial", "elementType": "geometry.fill", "stylers": [ { "color": "#ffffff" } ] }, { "featureType": "landscape", "elementType": "geometry.fill", "stylers": [ { "visibility": "on" }, { "color": "#efefef" } ] }, { "featureType": "road", "elementType": "labels.text.fill", "stylers": [ { "color": "#696969" } ] }, { "featureType": "administrative", "elementType": "labels.text.fill", "stylers": [ { "visibility": "on" }, { "color": "#737373" } ] }, { "featureType": "poi", "elementType": "labels.icon", "stylers": [ { "visibility": "off" } ] }, { "featureType": "poi", "elementType": "labels", "stylers": [ { "visibility": "off" } ] }, { "featureType": "road.arterial", "elementType": "geometry.stroke", "stylers": [ { "color": "#d6d6d6" } ] }, { "featureType": "road", "elementType": "labels.icon", "stylers": [ { "visibility": "off" } ] }, {}, { "featureType": "poi", "elementType": "geometry.fill", "stylers": [ { "color": "#dadada" } ] } ]
+
+        map.set('styles', styles);
+        var marker = new google.maps.Marker({
+          position: uluru,
+          icon: 'img/map-marker.png',
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwbdhay1ij5xy4ScUF_epMeJv7j8EVqZ8&callback=initMap">
+    </script>
+
+    <!-- BOOTSTRAP -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+
+
+  </body>
+</html>
