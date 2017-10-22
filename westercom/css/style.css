@@ -63,10 +63,41 @@ body {
   line-height: 1.8rem;
 }
 
-.division-img {
-  padding-bottom: 30px;
+.div-overlay {
+    position: relative;
+    width:100%;
+    margin-bottom: 30px;
 }
 
+.div-overlay:before {
+    content:'';
+    position:absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,54,118,0.6);
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.div-overlay:after {
+    content:'Zjistit více ..';
+    color: white;
+    text-align: center;
+    position:absolute;
+    width:100%; height: 1rem;
+    top:50%;
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transform: translateY(-50%);
+}
+
+.div-overlay:hover:before, .div-overlay:hover:after {
+    opacity:1;
+}
+
+}
 .division {
   padding-bottom: 60px;
 }
