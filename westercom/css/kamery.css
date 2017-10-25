@@ -17,10 +17,29 @@ body {
 
 .c-header {
   background-color: #003676;
+  background-image: url('../img/kamery-header.jpg');
   background-position: right;
   background-size: cover;
+  background-repeat: no-repeat;
   min-height: 450px;
   padding-top: 175px;
+}
+
+.c-header:before {
+    content: '';
+    background: -moz-linear-gradient(left, rgba(0,54,118,1) 9%, rgba(125,185,232,0) 100%);
+    background: -webkit-linear-gradient(left, rgba(0,54,118,1) 9%,rgba(125,185,232,0) 100%);
+    background: linear-gradient(to right, rgba(0,54,118,1) 9%,rgba(125,185,232,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003676', endColorstr='#007db9e8',GradientType=1 );
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.category {
+
 }
 
 .privacy-text {
@@ -34,14 +53,110 @@ body {
     padding-top: 100px;
 }
 
+.category-image {
+    padding-top: 100px;
+    width: 1
+    height: 200px;
+    background-color: #003676;
+}
+
+.ci-a {
+    background-image: url('../img/soukrome-objekty.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+.ci-a:before {
+    content: 'Soukromé objekty';
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    right: 15px;
+    bottom: 0;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 100px;
+    text-align: center;
+}
+
+.ci-a:after {
+    content: '';
+    background-color: #003676;
+    position: absolute;
+    top: 0;
+    right: 15px;
+    bottom: 0;
+    left: 15px;
+    opacity: 0.7;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.ci-a:hover:after {
+    content: 'Soukromé objekty';
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    opacity: 1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.ci-b {
+    background-image: url('../img/firemni-objekty.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ci-b:before {
+    content: 'Komerční objekty';
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    right: 15px;
+    bottom: 0;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 100px;
+    text-align: center;
+}
+
+.ci-b:after {
+    content: '';
+    background-color: #003676;
+    position: absolute;
+    top: 0;
+    right: 15px;
+    bottom: 0;
+    left: 15px;
+    opacity: 0.7;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.ci-b:hover:after {
+    content: 'Komerční objekty';
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    opacity: 1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
 .security {
-    padding-top: 50px;
 }
 
 .security-text {
     padding-top: 50px;
     text-align: center;
-    border-top: solid 1px #eeeeee;
 }
 
 .security-box {
@@ -102,7 +217,7 @@ body {
 }
 .c-header h1 {
   color: #ffffff;
-  font-size: 2.6rem;
+  font-size: 3.2rem;
   font-weight: bold;
   text-align: center;
   padding-bottom: 20px;
@@ -129,6 +244,30 @@ body {
 .c-content {
   background-color: #ffffff;
   min-height: 300px;
+}
+
+.c-typkamer {
+  background-color: #ffffff;
+  min-height: 300px;
+  margin-top: 60px;
+}
+
+.typkamer {
+    border-top: 1px solid #dddddd;
+}
+
+.typkamer h2, .typzaveseni h2 {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.typkamer h3, .typzaveseni h3 {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    color: #003676;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .division-img {
