@@ -8,112 +8,86 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/kamery.css">
+    <link href="css/signup.css" rel="stylesheet" type="text/css">
 
   </head>
 
   <body>
-
-    <div section="header" class="container-fluid c-header">
-      <div class="container c-header-content">
-        <div class="text-center">
-            <img src="img/header-logo.svg" class="header-logo" alt="Westercom logo">
-            <h1>Kamerové systémy, LED osvětlení a energetika.</h1>
-            <p></p>
+    <nav class="navbar navbar-toggleable-sm navbar-light bg-faded">
+        <div class="container c-toggle">
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="img/header-logo-blue.svg" width="200px" class="img-fluid" alt="Westeros logo"></a>
+        <div class="collapse navbar-collapse nav-texts" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="kamery-soukrome.html">Soukromé objekty</a>
+              <a class="nav-item nav-link" href="kamery-komercni.html">Komerční objekty</a>
+              <a class="nav-item nav-link active" href="kontakt.html">Kontakt</a>
+            </div>
         </div>
+    </div>
+    </nav>
+
+
+    <div class="container c-contact">
+
+      <div id="map" style="margin-top: 50px;">
+      </div>
+
+      <div class="row justify-content-center">
+          <div class="col-md-4 security-box-k"><img src="./img/ic-phone.svg" class="img-fluid" /><h3>+420 733 210 745</h3></div>
+          <div class="col-md-4 security-box-k"><img src="./img/ic-email.svg" class="img-fluid" /><h3>info@westercom.eu</h3></div>
+          <div class="col-md-4 security-box-k"><img src="./img/ic-nav.svg" class="img-fluid" /><h3>Bělohorská 245/71<br />169 00 Praha</h3></div>
       </div>
     </div>
 
-    <div class="container c-content">
-      <div class="about">
-        <p class="text-center">
-        Společnost Westercom se specializuje na projektovou a inženýrskou činnost v oblasti elektrických distribučních sítí a rozvoden. Navrhuje přesné umělé osvětlení do domácností i průmyslových prostor a kamerové systémy včetně montáže a nastavení.
-        </p>
-      </div>
+    <div class="container-fluid">
+        <div class="contact" id="contact-form" style="margin-top: 0px;">
+            <div class="contact-header">
+                <p>Požádejte nás nezávazně o cenovou kalkulaci pro kamerový systém pro Váš objekt.</p>
+            </div>
+            <div class="input-form">
+                <!-- Begin MailChimp Signup Form -->
+<div id="mc_embed_signup">
+<form action="//jaklradek.us16.list-manage.com/subscribe/post?u=27dd1ef35e24109f9bc4e64cf&amp;id=b1d49738ea" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
 
-      <div class="container c-divider">
-        <div class="row">
-          <div class="divider-text">
-            Služby
-          </div>
-          <div class="col divider-line">
+    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Vaše e-mailová adresa" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_27dd1ef35e24109f9bc4e64cf_b1d49738ea" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Kontaktujte mne" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
 
-          </div>
+<!--End mc_embed_signup-->
+            </div>
         </div>
-      </div>
+    </div>
+
+    <div class="container c-contact">
 
       <div class="row">
-        <div class="col-sm-12 col-md-4 division">
-            <div style="padding-bottom: 30px;">
-          <img src="img/energetika.jpg" class="division-img img-fluid" alt="Energetika">
-            </div>
-          <h2>Energetika</h2>
-          <p>
-            Zabýváme se projektováním elektrických zařízení, projektovou a inženýrskou činností v oblasti elektrických distribučních sítí a rozvoden.
-          </p>
+        <div class="col-md-6 col-sm-12 item-footer">
+          <img src="img/logo-footer.png" width="200px" class="img-fluid" alt="Westeros logo">
         </div>
-        <div class="col-sm-12 col-md-4 division">
-            <a href="osvetleni.html">
-            <div class="div-overlay">
-          <img src="img/osvetleni.jpg" class="division-img img-fluid" alt="Energetika">
-            </div>
-            </a>
-          <h2>Moderní LED Osvětlení</h2>
-            <p>
-            Návrh typu svítidel na základě a výpočet parametrů osvětlení pro venkovní a vnitřní prostory podle specifických požadavků zákazníka. Do návrhu jsou promítnuty například požadavky na intenzitu osvětlení, barvu světla, prostor… Návrhy a výpočty provádíme zdarma.
-            </p>
+        <div class="col-md-2 col-sm-6 item-footer">
+          <b>Westercom s.r.o.</b><br />
+          IČO: 03591689<br />
+          DIČ: CZ03591689<br />
         </div>
-          <div class="col-sm-12 col-md-4 division">
-             <a href="kamery.html">
-             <div class="div-overlay">
-                <img src="img/kamerovesystemy.jpg" class="division-img img-fluid" alt="Energetika">
-             </div>
-             </a>
-            <h2>Kamerové systémy</h2>
-            <p>
-              Navrhneme Vám komplexní a zároveň jednoduchý kamerový system pro domácnost nebo sofistikované řešení pro komerční či průmyslové objekty.
-            </p>
-          </div>
+        <div class="col-md-2 col-sm-6 item-footer">
+          Bělohorská 245/71<br />
+          CZ-169 00 Praha<br />
+          info@westercom.eu
         </div>
-
-        <div class="container c-divider">
-          <div class="row">
-            <div class="divider-text">
-              Kontakt
-            </div>
-            <div class="col divider-line">
-
-            </div>
-          </div>
+        <div class="col-md-2 col-sm-12 item-footer">
+          <a href="#"><i>Všeobecné obchodní podmínky (.PDF)</i></a>
         </div>
-
-        <div class="container c-contact">
-
-          <div id="map">
-          </div>
-
-          <div class="row">
-            <div class="col-md-6 col-sm-12 item-footer">
-              <img src="img/logo-footer.png" width="200px" class="img-fluid" alt="Westeros logo">
-            </div>
-            <div class="col-md-2 col-sm-6 item-footer">
-              <b>Westercom s.r.o.</b><br />
-              IČO: 03591689<br />
-              DIČ: CZ03591689<br />
-            </div>
-            <div class="col-md-2 col-sm-6 item-footer">
-              Bělohorská 245/71<br />
-              CZ-169 00 Praha<br />
-              info@westercom.eu
-            </div>
-            <div class="col-md-2 col-sm-12 item-footer">
-              <a href="#"><i>Všeobecné obchodní podmínky (.PDF)</i></a>
-            </div>
-          </div>
-        </div>
-
+      </div>
     </div>
-
 
     <!-- GOOGLE MAPS -->
     <script>
@@ -137,6 +111,7 @@
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwbdhay1ij5xy4ScUF_epMeJv7j8EVqZ8&callback=initMap">
     </script>
+
 
     <!-- BOOTSTRAP -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
